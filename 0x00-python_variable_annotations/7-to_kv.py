@@ -10,4 +10,4 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, int]:
     as arguments and returns a tuple. The first element of the
     tuple is the string k
     """
-    return (k, v ** 2)
+    return (k, float(v ** 2))
